@@ -1,0 +1,5 @@
+package com.klu.submission.entity;
+
+public class Submission {
+
+}
