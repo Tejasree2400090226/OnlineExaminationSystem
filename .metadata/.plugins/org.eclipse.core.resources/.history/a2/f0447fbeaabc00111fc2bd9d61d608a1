@@ -1,0 +1,9 @@
+package com.klu.gateway.home;
+
+public class HomeController {
+
+}
+package com.klu.auth.home;
+
+
+}

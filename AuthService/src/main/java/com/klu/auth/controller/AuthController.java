@@ -5,7 +5,6 @@ import com.klu.auth.dto.LoginResponse;
 import com.klu.auth.entity.User;
 import com.klu.auth.repository.UserRepository;
 import com.klu.auth.security.JwtUtil;
-
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
@@ -50,5 +49,10 @@ public class AuthController {
                 user.getUsername(),
                 user.getRole()
         );
+    }
+
+    @GetMapping("/test")
+    public String test() {
+        return "JWT Authentication Successful!";
     }
 }

@@ -1,0 +1,5 @@
+package com.klu.auth.home;
+
+public class HomeController {
+
+}

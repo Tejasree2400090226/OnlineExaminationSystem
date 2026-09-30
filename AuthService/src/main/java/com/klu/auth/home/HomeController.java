@@ -1,0 +1,14 @@
+package com.klu.auth.home;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HomeController {
+
+    @GetMapping("/")
+    public String home() {
+        return "Welcome to Online Examination Auth Service | "
+             + "This service handles user login and JWT authentication.";
+    }
+}
